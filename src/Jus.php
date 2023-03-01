@@ -6,10 +6,10 @@ class Jus
 {
     public ?string $buah;
     public int $stok;
-}
 
-class JusAnggur extends Jus
-{
-    public ?string $buah = "Anggur";
-    public int $stok = 100;
+    public function __construct(string $buah, int $stok)
+    {
+        $this->buah = $buah;
+        $this->stok = $stok;
+    }
 }
