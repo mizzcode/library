@@ -1,8 +1,10 @@
 {
     "name": "mizz/library",
     "description": "Belajar Membuat Library",
+    "homepage": "https://github.com/mizzcode/library",
     "type": "library",
     "require": {
+        "php": ">=8.2",
         "monolog/monolog": "^3.3"
     },
     "require-dev": {
